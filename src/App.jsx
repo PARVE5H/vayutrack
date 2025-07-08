@@ -30,7 +30,7 @@ function App() {
     <>  
     <QueryClientProvider client={queryClient}>
      
-     <BrowserRouter>
+     <BrowserRouter basename='/vayutrack'>
       <ThemeProvider defaultTheme='dark'> 
        <Layout>
         <Routes>
