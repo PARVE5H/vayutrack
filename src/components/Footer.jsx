@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -23,9 +24,9 @@ function Footer() {
             <h3 className='text-lg font-semibold mb-0'>Quick Links</h3>
             <ul className='space-y-2 text-sm text-muted-foreground'>
               <li><a href='/' className='hover:text-foreground transition-colors'>Home</a></li>
-              <li><a href='/about' className='hover:text-foreground transition-colors'>About</a></li>
-              <li><a href='/privacy-policy' className='hover:text-foreground transition-colors'>Privacy Policy</a></li>
-              <li><a href='/terms-of-service' className='hover:text-foreground transition-colors'>Terms of Service</a></li>
+              <li><Link to="/about" className='hover:text-foreground transition-colors'>About</Link></li>
+              <li><Link to="/privacy-policy" className='hover:text-foreground transition-colors'>Privacy Policy</Link></li>
+              <li><Link to="/terms-of-service" className='hover:text-foreground transition-colors'>Terms of Service</Link></li>
             </ul>
           </div>
 
