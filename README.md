@@ -2,6 +2,8 @@
 
 **Vayutrack** is a sleek and responsive weather dashboard built with **React**, **Tailwind CSS**, and modern UI components powered by **Shadcn UI** **Recharts** and **Lucide Icons**. It allows users to search cities, view real-time weather information, and interact with a minimal, fast user interface.
 
+> 🚀 Live Demo: [Vayutrack](https://parve5h.github.io/vayutrack/)  
+ 
 ---
 
 ## 🧠 Core Features
